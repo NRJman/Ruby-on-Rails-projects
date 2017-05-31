@@ -1,0 +1,1 @@
+Here I created demo-version of online-shop simple prototype. You can add and delete products to the shopping cart.

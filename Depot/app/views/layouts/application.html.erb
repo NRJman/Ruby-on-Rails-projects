@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Depot</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body class="<%= controller.controller_name %>">
+  	<div class="banner">
+  		<%= image_tag("logo.png") %>
+  		<div class="title_near_logo"><%= @page_title || "Electronics store" %></div>
+  	</div>
+  	<div id="columns">
+  		<div class="side">
+  			<ul>
+  				<li><a href="#" class="link">Home</a></li>
+  				<li><a href="#" class="link">Questions</a></li>
+  				<li><a href="#" class="link">News</a></li>
+  				<li><a href="#" class="link">Contacts</a></li>
+  			</ul>
+  		</div>
+  	</div>
+  <div id="main">
+  	<%= yield %>
+  </div>
+  </body>
+</html>

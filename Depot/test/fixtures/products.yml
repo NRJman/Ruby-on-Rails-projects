@@ -1,0 +1,22 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  description: MyText
+  img_url: MyString
+  price: 9.99
+
+two:
+  title: MyString
+  description: MyText
+  img_url: MyString
+  price: 9.99
+
+electronics:
+  title: Tablet
+  description: 
+    Usually it just washes dishes.
+    Usually it just washes dishes.
+    Usually it just washes dishes.
+  img_url: dishwasher.jpg
+  price: 25000.50

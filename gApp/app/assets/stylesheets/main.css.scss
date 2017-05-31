@@ -1,0 +1,151 @@
+*{
+ box-sizing: border-box;
+}
+nav.navbar{
+	background-color: #595959;
+	padding-top: 0px;
+	margin-top: 0px;
+	font-family: 'Libre Franklin', sans-serif;
+	height:10px;
+	color: white;
+	border-radius: 0px;
+}
+.navbar .navbar-nav > li > a{
+	line-height: 17px;
+}
+
+.navbar{
+	min-height: 47px;
+}
+
+li.active-one{
+	background-color: #5bd75b;
+}
+
+.toggle-active{
+	background-color: #5bd75b;
+}
+
+.nav.navbar-nav li a {
+   color: #fff;
+   font-size: 1.2em;
+}
+
+.navbar a.navbar-brand{
+	color: #fff;	
+}
+
+.navbar a.navbar-brand:hover{
+	color: black;
+}
+
+section{
+	padding-top: 50px;
+}
+
+h2, h1{
+	border-left: 5px solid #595959;
+	border-bottom: 1px solid #595959;
+	padding-left: 2px;
+	margin-bottom: 20px;
+}
+
+img{
+	max-width: 100%;
+}
+
+div.col-md-3{
+ 	padding: 0px;
+}
+
+footer{
+ 	height: 50px;
+ 	background-color: #595959;
+ 	margin-top: 10px;
+}
+
+footer p{
+ 	padding-top: 13px;
+ 	color: white;
+ 	text-align: center;
+}
+
+.photo{
+	text-align: center;
+	position: relative;
+}
+
+.photo,
+.photo-hover,
+.pjoto-hover, .mask,
+.photo-img,
+.photo-info{
+	width: 293px;
+	height: 195px;
+}
+
+.photo-img,
+.photo-hover,
+.pjoto-hover, .mask{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+.photo-type-line .photo-hover{
+	z-index: 100;
+	-webkit-transition: all 300ms ease-out;
+	-moz-transition: all 300ms ease-out;
+	transition: all 300ms ease-out;
+	opacity: 0;
+	cursor: pointer;
+	display: block;
+	text-decoration: none;
+	text-align: center;
+}
+
+.photo-type-line .photo-info{
+	z-index: 10;
+	color: #fff;
+	display: table-cell;
+	vertical-align: middle;
+	position: relative;
+}
+
+.photo-type-line .photo-info .headline{
+	font-size: 20px;
+}
+
+.photo-type-line .photo-info .line{
+	height: 1px;
+	width: 0%;
+	margin: 15px auto;
+	background: #fff;
+	-webkit-transition: all 300ms ease-out;
+	-moz-transition: all 300ms ease-out;
+	transition: all 300ms ease-out;
+}
+
+.photo-type-line .photo-hover .mask{
+	background: #000;
+	filter: alpha(opacity=50);
+	opacity: 0.5;
+	z-index: 0;
+}
+
+.photo-type-line .photo-hover:hover .line{
+	width:40%;
+}
+
+.photo-type-line .photo-hover:hover{
+	opacity: 1;
+}
+
+.photo-img{
+	background: #7a548f;
+	z-index:0;
+}
+
+#edit_images img{
+	width: 100%;
+}
